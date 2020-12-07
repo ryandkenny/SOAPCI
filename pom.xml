@@ -50,8 +50,8 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                           <projectFile>RestCountries-soapui-project.xml</projectFile>
-								<endpoint>https://restcountries.eu</endpoint>
+                           <projectFile>SOAPTemplate-soapui-project.xml</projectFile>
+								<endpoint>http://www.dneonline.com/calculator.asmx</endpoint>
 								<junitReport>true</junitReport>
 								<!-- The path is reqd to be as below, the default path for surefire reports: target/surefire-reports -->
                             <outputFolder>${basedir}/target/surefire-reports</outputFolder>
